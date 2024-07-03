@@ -1,0 +1,35 @@
+.detailsContainer h2{
+    text-align: left;
+    font-size: 52px;
+    margin: 50px ;
+}
+.ArtikelDetails{
+    padding: 50px;
+    margin: 0 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ArtikelDetails img{
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.ArtikelDetails-content{
+    padding: 100px 0px;
+    display: block;
+    text-align: left;
+}
+
+.ArtikelDetails  p{
+    text-align: left;
+    color: black;
+}
+
+.ArtikelDetails  h2{
+    margin: 0;
+    font-size: 16px;
+}
+
+

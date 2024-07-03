@@ -1,0 +1,109 @@
+.article-list-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.left-container{
+  width: 38%;
+  margin-right: 50px;
+  margin-left: 50px
+  
+}
+
+.right-container {
+  display: flex;
+  width: 15%;
+  margin-right: 500px;
+}
+
+.right-container img{
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.article-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.article-image {
+  width: 100%;
+  height: auto;
+}
+
+
+
+.article-item .tag {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #ffffff9a; 
+  color:#242277 ;
+}
+
+
+.article-item .tag.rekomendasi{
+  position: absolute;
+  background-color: #ffffff9a; 
+  margin: 200px 20px;
+}
+
+.article-item .tag.tips{
+  position: absolute;
+  margin: 200px 20px;
+}
+
+.article-details .tag.artikel{
+  position: absolute;
+  background-color: #ffffff9a; 
+  color: #242277;
+  margin: 107px 15px;
+  border-radius: 15px;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.left-container h2{
+  margin: -60px 200px 0 20px;
+  font-size: 16px;
+  color: white;
+  text-align: left;
+}
+
+
+.artikel-detail-content{
+  width: 350px;
+  margin-left: 10px;
+}
+
+.artikel-detail-content h2{
+  margin-bottom: 5px;
+  width: 309px;
+}
+
+
+.article-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.article-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px; 
+}
+
+.article-details {
+  flex: 1;
+  display: flex;
+  text-align: left;
+}
+
+.article-details h2{
+  font-size: 16px;
+  text-align: left;
+}
+
+

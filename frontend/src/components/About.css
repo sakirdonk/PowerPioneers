@@ -1,0 +1,151 @@
+.about-container {
+  margin: 150px 50px 0 50px;
+  box-sizing: border-box;
+  display: flex;
+  width: auto;
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(95, 92, 92, 0.163);
+  border-radius: 20px;
+}
+
+.about-left {
+  margin-top: 500px;
+  width: 400px;
+  margin: 50px 0px 0 10px;
+  text-align: left;
+}
+
+.about-left h2 {
+  width: 450px;
+  font-size: 52px;
+}
+
+.about-left p {
+  width: 335px;
+}
+
+.img-border {
+  width: 55%;
+  margin: 0 0 0 170px;
+  border-radius: 20px;
+}
+
+.kebersamaan {
+  position: absolute;
+  width: 176px;
+  height: 252px;
+  left: 559px;
+  top: 229px;
+  padding: 10px;
+  color: #f0f0f0;
+  background: #5d50c6;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.box {
+  position: absolute;
+  margin: 0;
+  padding: 10px;
+  border-radius: 20px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+.box img {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+}
+
+.box h5 {
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  color: white;
+}
+
+.story-container {
+  box-sizing: border-box;
+  display: flex;
+  width: auto;
+  margin: 350px 0;
+  padding: 20px 0;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(95, 92, 92, 0.163);
+  border-radius: 20px;
+  margin: 150px 50px 50px 50px;
+}
+
+.story-image {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  border: 1px solid #242277;
+  border-radius: 20px;
+  margin: -100px 500px 0 0;
+  z-index: 0;
+}
+
+.img-story {
+  width: 100%;
+  height: auto;
+  margin: 7px 1px -20px -15px;
+}
+
+.story-content {
+  width: 400px;
+  margin: 50px 0px 50px 670px;
+  padding: 20px 20px;
+  justify-content: flex-end;
+  justify-content: right;
+  align-items: end;
+  text-align: right;
+}
+
+.story-content h2 {
+  text-align: right;
+  margin: 0 -20px;
+  font-size: 52px;
+}
+
+.story-content p {
+  width: 400px;
+}
+
+.end-content img {
+  margin-left: 50px;
+  width: 94%;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .about-container,
+  .story-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-left,
+  .about-right,
+  .story-image,
+  .story-content {
+    text-align: center;
+  }
+
+  .story-content {
+    text-align: center;
+    padding: 10px;
+  }
+}

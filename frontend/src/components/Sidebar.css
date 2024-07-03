@@ -1,0 +1,105 @@
+.sidebar {
+  width: 250px;
+  padding: 20px;
+  margin: 0 0 770px 0;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.price-range{
+  background: #FFFFFF;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin: 35px 0;
+  padding: 15px 15px;
+  text-align: start;
+}
+.price-range select {
+  width: 90%;
+  padding: 5px;
+  margin: 10px ;
+  border:1px solid #242277;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.category{
+  background: #FFFFFF;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin: 35px 0;
+  padding: 15px 15px;
+  text-align: start;
+}
+
+.category ul li input{
+  width: auto;
+  text-align: left;
+  margin: 0
+}
+
+.exclusive-section{
+text-align: start;
+background: #FFFFFF;
+box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+margin: 0;
+padding: 15px 15px;
+}
+
+.exclusive-option{
+justify-content: center;
+align-items: center;
+text-align: center;
+margin: 15px 0;
+
+}
+
+.exclusive-option ul li a {
+  display: inline-block;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 8px 12px;
+  text-align: center;
+  font-weight: bold;
+  color: #242277;
+  margin: 0;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+.other-features{
+background: #FFFFFF;
+box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+margin: 35px 0;
+padding: 15px 15px;
+text-align: start;
+}
+
+.other-features ul li a{
+  padding: 8px 12px;
+  text-align: center;
+  color: #242277;
+  margin: 0;
+}

@@ -1,0 +1,142 @@
+.container-pemesanan {
+  display: flex;
+  width: 200vh;
+  margin-top: 150px;
+}
+
+.card-destinasi {
+  background-color: white;
+  width: 350px;
+  height: 544px;
+  border-radius: 45px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+}
+
+.card-destinasi img {
+  width: 350px;
+  margin-top: -9px;
+  margin-left: -9px;
+  object-fit: cover;
+}
+
+.card-destinasi h3 {
+  margin: 10px 0;
+}
+
+.card-destinasi button {
+  color: #242277;
+  background-color: #d9d9d9;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 220px;
+  cursor: pointer;
+}
+
+.card-destinasi button:hover {
+  background-color: #ccc;
+}
+
+.pemesanan-kanan {
+  margin-top: -540px;
+  margin-left: 400px;
+}
+
+.tanggal-pemesanan {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 20px;
+}
+
+.tanggal-pemesanan button {
+  height: 38px;
+  width: 150px;
+  color: #242277;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.tanggal-pemesanan button.selected {
+  background-color: #242277;
+  color: #fff;
+}
+
+.tanggal-pemesanan button:last-child {
+  margin-right: 0;
+}
+
+.quantity-paket {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.quantity-paket div {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-paket button {
+  color: black;
+  background-color: white;
+  width: 15px;
+  border: 2px solid black;
+  padding: 10px 15px;
+  padding-right: 25px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.quantity-paket span {
+  color: black;
+  background-color: white;
+  width: 15px;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+  padding-right: 25px;
+}
+
+.total-harga {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.total-harga p:first-child {
+  margin: 0;
+}
+
+.total-harga p:nth-child(2) {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.total-harga a {
+  background-color: #ffa500;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.total-harga button:hover {
+  background-color: #e69500;
+}
